@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'production'){
 const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) =>{
-  res.render('https://cmt-crypto.herokuapp.com/');
+  res.render('https://cmt-crypto.herokuapp.com/'); //fixed link
 });
 
 
