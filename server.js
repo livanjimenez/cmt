@@ -10,6 +10,11 @@ if (process.env.NODE_ENV === 'production'){
 
 const port = process.env.PORT || 4000;
 
+app.get('/', (req, res) =>{
+  res.render('https://cmt-crypto.herokuapp.com/');
+});
+
+
 //Test for express API to be working
 //http:localhost:4000/api/users
 app.get('/api/express', (req, res) =>{
