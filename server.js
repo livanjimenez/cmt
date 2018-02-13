@@ -3,6 +3,10 @@ const express = require('express');
 const app = express();
 global.fetch = require('node-fetch');
 
+if (process.env.NODE_ENV === 'production'){
+  app.use(express.static('client/build'));
+}
+
 
 const port = process.env.PORT || 4000;
 
