@@ -2,6 +2,6 @@
 
 ## link: https://cmt-crypto.herokuapp.com/
 
-##### ** Todo list **
+##### **Todo list**
 
-##### * Add portfolio builder * 
+- [ ] *Add portfolio builder* 
